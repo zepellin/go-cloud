@@ -20,7 +20,8 @@ import (
 	"github.com/GoogleCloudPlatform/cloudsql-proxy/proxy/certs"
 	"github.com/GoogleCloudPlatform/cloudsql-proxy/proxy/proxy"
 	"github.com/google/wire"
-	"gocloud.dev/gcp"
+	"github.com/zepellin/go-cloud/gcp"
+	"golang.org/x/oauth2"
 )
 
 // CertSourceSet is a Wire provider set that binds a Cloud SQL proxy
